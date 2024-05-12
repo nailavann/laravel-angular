@@ -24,7 +24,7 @@ Route::post('login', [AuthController::class, 'login']);
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('form', [FormController::class, 'store']);
-    Route::get('form', [FormController::class, 'index']);
+    Route::get('form', [FormController::class, 'index'])->middleware('admin');
     Route::get('logout', [AuthController::class, 'logout']);
     Route::get('user', [UserController::class, 'getUser']);
 
