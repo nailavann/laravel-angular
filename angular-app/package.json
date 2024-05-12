@@ -20,7 +20,6 @@
     "@angular/router": "^17.3.0",
     "@khazii/ngx-intl-tel-input": "^17.0.1",
     "axios": "^1.6.8",
-    "dotenv": "^16.4.5",
     "primeng": "^17.16.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
