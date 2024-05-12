@@ -1,0 +1,5 @@
+<div class="title-bar">
+  <p-button *ngIf="isAdmin" routerLink="/admin" label="Admin paneli"></p-button>
+  <p-button (click)="logout()" label="Çıkış Yap"></p-button>
+</div>
+<app-form></app-form>

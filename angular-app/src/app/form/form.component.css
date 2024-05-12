@@ -1,0 +1,23 @@
+.div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.form-group {
+  margin-bottom: 15px;
+  width: 250px;
+}
+
+.form-control {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-control{
+  width: 100%;
+}
+

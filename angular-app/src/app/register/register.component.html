@@ -1,0 +1,14 @@
+<div class="centered-div">
+  <form (ngSubmit)="submitForm()" class="p-fluid">
+    <h3 class="center-text">Kayıt Ol</h3>
+    <div class="p-field">
+      <input placeholder="Email" type="email" id="email" name="email" pInputText [(ngModel)]="formData.email">
+    </div>
+    <div class="p-field">
+      <input placeholder="Password" type="password" id="password" name="password" pInputText
+             [(ngModel)]="formData.password">
+    </div>
+    <button type="submit" pButton label="Submit" class="p-button-raised p-button-success"></button>
+  </form>
+  <p-button routerLink="/login" label="Hesabın varsa giriş yap."></p-button>
+</div>
